@@ -31,7 +31,7 @@
      
     npm run build:server
     
-7.Expressサーバをビルド後にブートする。(localhost:3000でアクセス可能)
+7.ExpressサーバとAngularをビルド後、Expressサーバをブートする。(localhost:3000でアクセス可能)
     
     npm run buildRun
   
