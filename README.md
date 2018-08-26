@@ -1,12 +1,40 @@
-# Angular6Express4Typescritp2
+# MEAN-Stack
 
-Japanese Readme:
-  Angular6 + Express4 + Typescript2 + MongoDBで作るMEANスタックのウェブアプリのスケルトンです。
-  AngularMaterial2を導入済みです。
-  コーディング規約としてTslint-config-semistandardを適応。
+## Japanese README:
+### 特色
+    Angular6 + Express4 + Typescript2 + MongoDBで作るMEANスタックのウェブアプリのスケルトンです。
+    AngularMaterial2を導入済みです。
+    コーディング規約としてTslint-config-semistandardを使用しています。
+    
+### よく使用するコマンド一覧
+1.Expressサーバをビルド&ブート&ng serveコマンドの実行。
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.1.
+    npm run start
+    
+2.ng serveコマンドを単体で実行する。
 
+    npm run start:client
+    
+3.Expressサーバを単体でブートする。
+    
+    npm run start:server
+    
+4.ExpressサーバとAngularをビルドしてdistフォルダにアウトプットする。
+    
+    npm run build
+  
+5.Angularだけをビルドしてdistフォルダにアウトプットする。
+    
+    npm run build:client    
+      
+6.Expressサーバだけをビルドしてdistフォルダにアウトプットする。(Angularのビルドは基本的に長いので、サーバだけビルドしたい時はこっちを使うと効率的)
+     
+    npm run build:server
+    
+7.Expressサーバをビルド後にブートする。(localhost:3000でアクセス可能)
+    
+    npm run buildRun
+  
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
